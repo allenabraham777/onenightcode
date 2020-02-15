@@ -1,0 +1,40 @@
+:root {
+  --color1: #FF5BA5;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: var(--color1);
+  overflow: auto;
+}
+.brand {
+  float: left;
+  font-size: 3rem;
+  padding: 0 2rem;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  padding: 2rem;
+}
+
+nav ul li {
+  display: inline;
+  color: #000000;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}

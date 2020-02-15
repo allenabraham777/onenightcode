@@ -1,5 +1,6 @@
 :root {
   --color1: #FF5BA5;
+  --color2: #FFBBDA;
 }
 
 html {
@@ -11,30 +12,76 @@ html {
   margin: 0;
 }
 
+body {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
 nav {
+  height: 10vh;
   background-color: var(--color1);
-  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 .brand {
+  color: #333333;
   float: left;
   font-size: 3rem;
   padding: 0 2rem;
 }
 
-nav ul {
-  float: right;
-  list-style: none;
+.profile {
+  display: flex;
+  top: 10vh;
+  right: 0;
+  left: 0;
   padding: 2rem;
+  position: fixed;
+  justify-content: space-between;
+  font-size: 2.5rem;
 }
 
-nav ul li {
-  display: inline;
-  color: #000000;
-  font-size: 2rem;
-  padding: 2rem;
+.call {
+  background: #0EFB5E;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  line-height: 5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: inherit;
+.call:hover{
+  box-shadow: 5px 5px 10px #333333;
+  background: #00FFFF;
+}
+
+.call:active {
+  box-shadow: none;
+}
+
+.content-wrapper {
+  margin-top: 10vh;
+  padding: 3rem;
+  height: 90vh;
+  background: linear-gradient(rgba(255,187,218,0.7),rgba(255,187,218,0.7)), url(../img/bg.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.central {
+  text-align: justify;
+  width: 30%;
 }

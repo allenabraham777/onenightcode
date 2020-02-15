@@ -15,12 +15,22 @@
                 date.io
             </h1>
         </div>
-        <ul>
-            <li>Mood Tracker</li>
-            <li>Talked Since</li>
-            <li>Sterss Detection</li>
-        </ul>
     </nav>
     <!-- End of Navbar -->
+
+    <!-- Start of Profile -->
+    <div class="profile">
+        <div class="name">Mr. Anaghan,</div>
+        <div class="call">C</div>
+    </div>
+    <!-- End of Profile -->
+
+    <!-- Start of Content -->
+    <section class="content-wrapper">
+        <div class="central">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ipsam tenetur nisi. Eaque autem esse neque obcaecati accusamus nobis? Praesentium quo impedit consequuntur temporibus, ut quidem! Numquam temporibus nostrum aliquid?"
+        </div>
+    </section>
+    <!-- End of Content -->
 </body>
 </html>
